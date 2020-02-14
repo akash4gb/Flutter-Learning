@@ -4,7 +4,7 @@ void main() {
   runApp(
     MaterialApp(  
       debugShowCheckedModeBanner: false,
-      title: 'Hello App',
+      title: '01. Hello in RectAngle',
       home: Scaffold( 
         appBar: AppBar(
           title: Text('Hello Flutter'),
