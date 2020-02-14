@@ -24,10 +24,12 @@ class HelloRectangle extends StatelessWidget {
         color: Colors.greenAccent,
          height: 400.0,
          width: 300.0,
-         child: Text(
-           'Hello',
-           style: TextStyle(fontSize: 40.0),
-           textAlign: TextAlign.center,
+         child: Center(
+           child: Text(
+             'Hello',
+             style: TextStyle(fontSize: 40.0),
+             textAlign: TextAlign.center,
+           ),
          ),
       ),
     );
